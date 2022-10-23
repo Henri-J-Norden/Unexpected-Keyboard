@@ -37,8 +37,9 @@ ANDROID_BUILD_TOOLS = $(lastword $(sort $(wildcard $(ANDROID_HOME)/build-tools/*
 ANDROID_PLATFORM = $(ANDROID_HOME)/platforms/$(ANDROID_PLATFORM_VERSION)
 
 ifeq ($(shell [ -d "$(ANDROID_PLATFORM)" ] && echo ok),)
-$(error Android platform not found. Want $(ANDROID_PLATFORM_VERSION), \
-	found $(notdir $(wildcard $(ANDROID_HOME)/platforms/*)))
+$(error Android platform not found in. Want $(ANDROID_PLATFORM_VERSION), \
+	found $(notdir $(wildcard $(ANDROID_HOME)/platforms/*)) \n\
+	($(ANDROID_PLATFORM)))
 endif
 
 JAVAC_FLAGS = -source $(JAVA_VERSION) -target $(JAVA_VERSION) -encoding utf8
