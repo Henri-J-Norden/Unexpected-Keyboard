@@ -3,9 +3,9 @@
   <row>
     <key width="0.75" key0="esc" key2="~" key4="!"/>
     <key width="0.75" key0="(" key2="[" key4="{"/>
-    <key key0="7" key1="⅐" key3="&lt;" key4="&gt;"/>
-    <key key0="8" key2="∞"/>
-    <key key0="9" key2="∛" key3="∜"/>
+    <key key0="1" key1="superscript" key2="ordinal" key3="subscript" key4="½"/>
+    <key key0="2" key1="up" key2="right" key3="left" key4="down" edgekeys="true"/>
+    <key key0="3" key1="⅓" key2="⅔" key4="π"/>
     <key width="0.75" key0="*" key1="√" key2="×" key3="\#" key4="⋅"/>
     <key width="0.75" key0="/" key1="%" key2="⁄" key3="÷"/>
   </row>
@@ -21,16 +21,16 @@
   <row>
     <key width="0.75" key0="switch_greekmath"/>
     <key width="0.75" key0="shift" key2="fn" key4="alt"/>
-    <key key0="1" key1="superscript" key2="ordinal" key3="subscript" key4="½"/>
-    <key key0="2" key1="up" key2="right" key3="left" key4="down" edgekeys="true"/>
-    <key key0="3" key1="⅓" key2="⅔" key4="π"/>
+    <key key0="7" key1="⅐" key3="&lt;" key4="&gt;"/>
+    <key key0="8" key2="∞"/>
+    <key key0="9" key2="∛" key3="∜"/>
     <key width="1.5" key0="backspace" key2="delete" key3="&#127;"/>
   </row>
   <row height="0.95">
     <key width="1.5" key0="switch_text" key2="ctrl"/>
-    <key width="1.5" key0="0" key3="f11_placeholder" key4="f12_placeholder"/>
-    <key width="0.75" key0="." key1=":" key2="," key3=";"/>
-    <key width="0.75" key0="space" key1="&quot;" key2="'" key4="_"/>
+    <key key0="space" key1="&quot;" key2="'" key4="_"/>
+    <key key0="0" key3="f11_placeholder" key4="f12_placeholder"/>
+    <key key0="." key1=":" key2="," key3=";"/>
     <key width="1.5" key0="enter" key1="±" key2="action" key3="="/>
   </row>
 </keyboard>
